@@ -1,0 +1,12 @@
+D:\TesteOficial\Teste.Api\Teste.Domain\bin\Debug\net6.0\Teste.Domain.deps.json
+D:\TesteOficial\Teste.Api\Teste.Domain\bin\Debug\net6.0\Teste.Domain.dll
+D:\TesteOficial\Teste.Api\Teste.Domain\bin\Debug\net6.0\ref\Teste.Domain.dll
+D:\TesteOficial\Teste.Api\Teste.Domain\bin\Debug\net6.0\Teste.Domain.pdb
+D:\TesteOficial\Teste.Api\Teste.Domain\obj\Debug\net6.0\Teste.Domain.csproj.AssemblyReference.cache
+D:\TesteOficial\Teste.Api\Teste.Domain\obj\Debug\net6.0\Teste.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TesteOficial\Teste.Api\Teste.Domain\obj\Debug\net6.0\Teste.Domain.AssemblyInfoInputs.cache
+D:\TesteOficial\Teste.Api\Teste.Domain\obj\Debug\net6.0\Teste.Domain.AssemblyInfo.cs
+D:\TesteOficial\Teste.Api\Teste.Domain\obj\Debug\net6.0\Teste.Domain.csproj.CoreCompileInputs.cache
+D:\TesteOficial\Teste.Api\Teste.Domain\obj\Debug\net6.0\Teste.Domain.dll
+D:\TesteOficial\Teste.Api\Teste.Domain\obj\Debug\net6.0\ref\Teste.Domain.dll
+D:\TesteOficial\Teste.Api\Teste.Domain\obj\Debug\net6.0\Teste.Domain.pdb

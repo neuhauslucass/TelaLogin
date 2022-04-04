@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-right">
+    <h1 class="display-4">Bem-Vindo,</h1>
+    <p>Faça o login para continuar</p>
+</div>
+
+<form action="https://localhost:7072/Login" method="post">
+    <div>
+        <label>Nome Usuário</label>
+        <input class="form-control" type="text" id="username" placeholder="Usuário" required="required"/>
+    </div>
+
+    <div>
+        <label>Senha</label>
+        <input class="form-control" type="password" id="senha" placeholder="Senha" required="required" />
+        <input type="submit" onclick="post(); return false" value="Enviar" />
+    </div>
+</form>
+
+@section Scripts{ 
+<script>
+    function post() {
+       $.ajax({
+            type: "POST",
+            url: "https://localhost:7072/Login",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            data: JSON.stringify({ usuario: $('#username').val(), senha: $('#senha').val() }), 
+            success: function (data) {
+               alert(data.msg) ;
+
+         },
+         failure: function(errMsg) {
+            alert(errMsg);
+        }
+        });
+        }
+</script>
+} 
+
